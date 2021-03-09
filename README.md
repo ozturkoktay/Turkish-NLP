@@ -75,3 +75,6 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 
 ### Voice
 * [Turkish Voice Records](https://www.kaggle.com/erdemuysal/turkish-speech-dataset)
+
+## Services
+* [ITU Turkish Natural Language Processing Pipeline](http://tools.nlp.itu.edu.tr/)
