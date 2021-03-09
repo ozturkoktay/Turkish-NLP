@@ -20,7 +20,7 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 
 ## Datasets
 
-### General-purpose
+### General Purpose
 
 * [TS Corpus](https://tscorpus.com/) - Largest corpus for Turkish Language
 * [Turkish Wikipedia Dump](https://dumps.wikimedia.org/trwiki/)
