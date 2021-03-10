@@ -13,16 +13,19 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
    * [Information Retrieval](#information-retrieval)
    * [Dependency Parsing](#dependency-parsing)
    * [Named Entity Recognition](#named-entity-recognition)
-   * [Voice](#voice)
-* [Libraries](#libraries)
+   * [Speech](#speech)
+* [Models](#models)
+* [Resources](#resources)
+   * [Frameworks](#frameworks)
+* [Linguistic Processing](#linguistic-processing)
+   * [Morphological analysis](#morphological-analysis)
+   * [Stemming](#stemming)
 * [Services](#services)
-
 
 ## Datasets
 
 ### General Purpose
-
-* [TS Corpus](https://tscorpus.com/) - Largest corpus for Turkish Language
+* [TS Corpus](https://tscorpus.com/)
 * [Turkish Wikipedia Dump](https://dumps.wikimedia.org/trwiki/)
 * [70000+ Turkish News](https://www.kaggle.com/suleymancan/turkishnews70000)
 * [2500 Columns in Turkish Language
@@ -33,12 +36,14 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 * [27563 Turkish Books](https://www.kaggle.com/keremturker/turkish-book-data)
 
 ### Word Lists
-
 * [Dictionary Meanings of 10535 Turkish Words](https://www.kaggle.com/oktayozturk010/dictionary-meanings-of-10535-turkish-words)
+* [63840 Turkish Words](https://github.com/mertemin/turkish-word-list)
+* [Turkish Stop Words](https://github.com/ahmetax/trstop)
 
 ### Parallel Corpora
-
 * [OPUS Paralel Corpus](https://opus.nlpl.eu/)
+* [The English-Swedish-Turkish Corpus](https://cl.lingfil.uu.se/~bea/turkiska/home-en.html)
+* [mythes-tr](https://github.com/maidis/mythes-tr)
 
 ### Text Classification
 
@@ -51,7 +56,6 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 * [Turkish Spam Dataset](https://www.kaggle.com/cuneytdemir/turkish-spam-dataset)
 
 ### Sentiment Analysis
-
 * [Movie Reviews](https://www.kaggle.com/mustfkeskin/turkish-movie-sentiment-analysis-dataset)
 * [Positive/Negative Customer Reviews](https://www.kaggle.com/burhanbilenn/turkish-customer-reviews-for-binary-classification)
 * [11408 Turkish Customer Reviews](https://www.kaggle.com/burhanbilenn/duygu-analizi-icin-urun-yorumlari)
@@ -60,21 +64,43 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 * [937 Customer Reviews](https://www.kaggle.com/baharyilmaz/product-comments-dataset)
 
 ### Information Retrieval
-
 * [1200 Turkish Words Used in Children's Literature](https://www.kaggle.com/oktayozturk010/1200-words-used-in-childrens-literature)
 * [Turkish Employee Dataset](https://www.kaggle.com/metetik/turkish-employee-dataset)
 * [Turkish TV Series](https://www.kaggle.com/tonyukuk/turkish-tv-series)
 
 ### Dependency Parsing
-
 * [2000 Turkish Sentences](https://www.kaggle.com/oktayozturk010/2000-turkish-sentences)
 
 ### Named Entity Recognition
-
 * [Turkish NER Dataset](https://www.kaggle.com/cebeci/turkish-ner)
 
-### Voice
+### Speech
 * [Turkish Voice Records](https://www.kaggle.com/erdemuysal/turkish-speech-dataset)
+* [Spoken Turkish Corpus](https://std.metu.edu.tr/en/)
+* [Middle East Technical University Turkish Microphone Speech](https://catalog.ldc.upenn.edu/LDC2006S33)
+* [Turkish Broadcast News Speech and Transcripts](https://catalog.ldc.upenn.edu/LDC2012S06)
+
+## Different Kinds of Models
+* [BERTurk](https://github.com/stefan-it/turkish-bert)
+* [fastText Word Vector](https://fasttext.cc/docs/en/crawl-vectors.html)
+* [ELMO](https://github.com/ericxsun/ELMoForManyLangs)
+* [Turkish-Word2Vec](https://github.com/akoksal/Turkish-Word2Vec)
+
+## Resources
+### Frameworks
+* [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp)
+* [turkishnlp](https://github.com/MeteHanC/turkishnlp)
+* [trnltk](https://github.com/aliok/trnltk)
+
+## Linguistic Processing
+### Morphological analysis
+* [turkish-morphology](https://github.com/google-research/turkish-morphology)
+* [TRmorph](https://github.com/coltekin/TRmorph)
+
+### Stemming
+* [turkish-stemmer-python](https://github.com/otuncelli/turkish-stemmer-python)
+* [elasticsearch-analysis-turkishstemmer](https://github.com/skroutz/elasticsearch-analysis-turkishstemmer)
 
 ## Services
 * [ITU Turkish Natural Language Processing Pipeline](http://tools.nlp.itu.edu.tr/)
+* [zemberek-nlp-server](https://github.com/cbilgili/zemberek-nlp-server)
