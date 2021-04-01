@@ -6,6 +6,7 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 
 * [Datasets](#datasets)
    * [General Purpose](#general-purpose)
+   * [Treebanks](#treebanks)
    * [Word Lists](#word-lists)
    * [Parallel Corpora](#parallel-corpora)
    * [Text Classification](#text-classification)
@@ -14,31 +15,42 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
    * [Dependency Parsing](#dependency-parsing)
    * [Named Entity Recognition](#named-entity-recognition)
    * [Speech](#speech)
-* [Models](#models)
+* [Deep Learning Models](#deep-learning-models)
 * [Resources](#resources)
-   * [Frameworks](#frameworks)
+   * [Frameworks and Libraries](#frameworks-and-libraries)
 * [Linguistic Processing](#linguistic-processing)
    * [Morphological analysis](#morphological-analysis)
    * [Stemming](#stemming)
 * [Services](#services)
 
 ## Datasets
-
 ### General Purpose
 * [TS Corpus](https://tscorpus.com/)
 * [Turkish Wikipedia Dump](https://dumps.wikimedia.org/trwiki/)
 * [70000+ Turkish News](https://www.kaggle.com/suleymancan/turkishnews70000)
-* [2500 Columns in Turkish Language
-](https://www.kaggle.com/oktayozturk010/2500-turkish-columns)
+* [2500 Columns in Turkish Language](https://www.kaggle.com/oktayozturk010/2500-turkish-columns)
 * [910 Turkish Articles by 69 Columnists](https://www.kaggle.com/oktayozturk010/910-turkish-articles-by-69-columnists)
 * [Turkish Sentences](https://www.kaggle.com/rootofarch/kuzgunlar-acikhack-tr-sentence)
 * [26233 Turkish News](https://www.kaggle.com/ahmetelgn/turkish-news)
 * [27563 Turkish Books](https://www.kaggle.com/keremturker/turkish-book-data)
+* [Q&A Dataset](https://github.com/TQuad/turkish-nlp-qa-dataset)
+* [A corpus of Turkish offensive language](https://coltekin.github.io/offensive-turkish/)
+
+
+### Treebanks
+* [UD Turkish GB](https://universaldependencies.org/treebanks/tr_gb/index.html)
+* [UD Turkish BOUN](https://universaldependencies.org/treebanks/tr_boun/index.html)
+* [UD Turkish PUD](https://universaldependencies.org/treebanks/tr_pud/index.html)
+* [UD Turkish IMST](https://universaldependencies.org/treebanks/tr_imst/index.html)
+* [UD Turkish FrameNet](https://github.com/UniversalDependencies/UD_Turkish-FrameNet)
+* [UD Turkish Penn](https://github.com/UniversalDependencies/UD_Turkish-Penn)
+* [UD Turkish Tourism](https://github.com/UniversalDependencies/UD_Turkish-Tourism)
 
 ### Word Lists
 * [Dictionary Meanings of 10535 Turkish Words](https://www.kaggle.com/oktayozturk010/dictionary-meanings-of-10535-turkish-words)
 * [63840 Turkish Words](https://github.com/mertemin/turkish-word-list)
 * [Turkish Stop Words](https://github.com/ahmetax/trstop)
+* [698 profane words](https://github.com/ooguz/turkce-kufur-karaliste)
 
 ### Parallel Corpora
 * [OPUS Paralel Corpus](https://opus.nlpl.eu/)
@@ -46,7 +58,6 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 * [mythes-tr](https://github.com/maidis/mythes-tr)
 
 ### Text Classification
-
 * [2500 Columns in Turkish Language](https://www.kaggle.com/oktayozturk010/2500-turkish-columns)
 * [157 Blog Texts in Turkish Language
 ](https://www.kaggle.com/oktayozturk010/157-blog-texts-in-turkish)
@@ -54,6 +65,7 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 * [1200 Turkish Words and Categories Used in Children's Literature](https://www.kaggle.com/oktayozturk010/1200-words-used-in-childrens-literature)
 * [20000+ Turkish News Titles](https://www.kaggle.com/suleymancan/turkishnewstitle20000clickbaitclassified)
 * [Turkish Spam Dataset](https://www.kaggle.com/cuneytdemir/turkish-spam-dataset)
+* [1150 Turkish News](https://www.kaggle.com/oktayozturk010/1150-turkish-news)
 
 ### Sentiment Analysis
 * [Movie Reviews](https://www.kaggle.com/mustfkeskin/turkish-movie-sentiment-analysis-dataset)
@@ -80,17 +92,21 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 * [Middle East Technical University Turkish Microphone Speech](https://catalog.ldc.upenn.edu/LDC2006S33)
 * [Turkish Broadcast News Speech and Transcripts](https://catalog.ldc.upenn.edu/LDC2012S06)
 
-## Different Kinds of Models
+## Deep Learning Models
 * [BERTurk](https://github.com/stefan-it/turkish-bert)
 * [fastText Word Vector](https://fasttext.cc/docs/en/crawl-vectors.html)
 * [ELMO](https://github.com/ericxsun/ELMoForManyLangs)
 * [Turkish-Word2Vec](https://github.com/akoksal/Turkish-Word2Vec)
 
 ## Resources
-### Frameworks
+### Frameworks and Libraries
 * [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp)
+* [zemberek-nlp-server](https://github.com/cbilgili/zemberek-nlp-server)
 * [turkishnlp](https://github.com/MeteHanC/turkishnlp)
 * [trnltk](https://github.com/aliok/trnltk)
+* [nuve](https://github.com/hrzafer/nuve)
+* [Guguk](https://github.com/joom/Guguk)
+* [sinkaf](https://github.com/eonurk/sinkaf)
 
 ## Linguistic Processing
 ### Morphological analysis
@@ -100,7 +116,7 @@ A curated list of awesome Turkish NLP frameworks, libraries, datasets and resour
 ### Stemming
 * [turkish-stemmer-python](https://github.com/otuncelli/turkish-stemmer-python)
 * [elasticsearch-analysis-turkishstemmer](https://github.com/skroutz/elasticsearch-analysis-turkishstemmer)
+* [turkish_stemmer](https://github.com/skroutz/turkish_stemmer)
 
 ## Services
 * [ITU Turkish Natural Language Processing Pipeline](http://tools.nlp.itu.edu.tr/)
-* [zemberek-nlp-server](https://github.com/cbilgili/zemberek-nlp-server)
